@@ -2,7 +2,7 @@
 
 import { CldUploadButton } from "next-cloudinary";
 import { CldImage } from "next-cloudinary";
-import { useState } from "react";
+import React, { useState } from "react";
 ;
 
  export type UploadResult = {
