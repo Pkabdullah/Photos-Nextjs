@@ -20,7 +20,7 @@ export default function page () {
 
     <main className="   flex min-h-screen flex-col items-center justify-between p-24">
       <CldUploadButton className="bg-white text-black w-36 h-12 rounded hover:bg-slate-500"
-        onUpload={(result: UploadResult) => {
+        onUpload={(result: any) => {
           setImageId(result.info.public_id);
         }}
         uploadPreset="dk9leemtx"
