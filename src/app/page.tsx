@@ -12,7 +12,7 @@ import React, { useState } from "react";
   event: 'success';
 };
 
-export default function page () {
+export default function Page () {
 
   const [imageId,setImageId]=useState("")
   return (
