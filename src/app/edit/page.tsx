@@ -114,7 +114,7 @@ export default function EditPage({
               width="1200"
               height="1400"
               alt=" an image"
-              blur=""
+              blur
             />
           )}
           {transformation === "grayscale" && (
