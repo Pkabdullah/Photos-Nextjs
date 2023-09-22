@@ -16,7 +16,7 @@ export default function EditPage({
   const [transformation, setTransformation] = useState<
     | undefined
     | "generative-fill"
-    | "blur"
+    // | "blur"
     | "grayscale"
     | "pixelate"
     | "removeBackground"
@@ -59,14 +59,14 @@ export default function EditPage({
             />
           </div>
 
-          <Button
+{/*           <Button
             onClick={() => {
               setTransformation("blur");
             }}
             className=" bg-white text-black hover:bg-white rounded"
           >
             Apply Blur
-          </Button>
+          </Button> */}
           <Button
             onClick={() => {
               setTransformation("grayscale");
@@ -108,7 +108,7 @@ export default function EditPage({
               }}
             />
           )}
-          {transformation === "blur" && (
+{/*           {transformation === "blur" && (
             <CldImage
               src={publicId}
               width="1200"
@@ -116,7 +116,7 @@ export default function EditPage({
               alt=" an image"
               blur = "800"
             />
-          )}
+          )} */}
           {transformation === "grayscale" && (
             <CldImage
               src={publicId}
