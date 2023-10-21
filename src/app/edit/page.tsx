@@ -117,7 +117,7 @@ export default function EditPage({
               blur = "800"
             />
           )} */}
-          {transformation === "grayscale" && (
+{/*           {transformation === "grayscale" && (
             <CldImage
               src={publicId}
               width="1200"
@@ -125,7 +125,7 @@ export default function EditPage({
               alt=" an image"
               grayscale
             />
-          )}
+          )} */}
           {transformation === "pixelate" && (
             <CldImage
               src={publicId}
