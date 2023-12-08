@@ -126,24 +126,24 @@ export default function EditPage({
               grayscale
             />
           )} */}
-          {transformation === "pixelate" && (
-            <CldImage
-              src={publicId}
-              width="1200"
-              height="1400"
-              alt=" an image"
-              pixelate
-            />
-          )}
-          {transformation === "removeBackground" && (
-            <CldImage
-              src={publicId}
-              width="1200"
-              height="1400"
-              alt=" an image"
-              removeBackground
-            />
-          )}
+          // {transformation === "pixelate" && (
+          //   <CldImage
+          //     src={publicId}
+          //     width="1200"
+          //     height="1400"
+          //     alt=" an image"
+          //     pixelate
+          //   />
+          // )}
+          // {transformation === "removeBackground" && (
+          //   <CldImage
+          //     src={publicId}
+          //     width="1200"
+          //     height="1400"
+          //     alt=" an image"
+          //     removeBackground
+          //   />
+          // )}
         </div>
       </div>
     </section>
